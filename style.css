@@ -1,0 +1,195 @@
+/* ------------------- General ------------------- */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    margin:0; padding:0; font-size:12px; 
+    font-family:verdana, Arial, Helvetica, sans-serif; 
+    color:#525252;
+    background-color:#000000;
+}
+
+/* ------------------- General Header ------------------- */
+
+#full-head {
+  display:block;
+  position:fixed; 
+  top: 0;
+  width:100%; 
+  color:#FDC609;
+  background-color:#232323;
+  font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+/* ------------------- Header Name ------------------- */
+
+#header {
+  text-indent:5%
+}
+
+#header h1{
+  line-height: 1;
+}
+
+/* ------------------- Header Navbar ------------------- */
+
+#menu {
+  display:block; float:right; margin:-3% 0 0 0; padding:0;font-size:13px; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:right;
+}
+
+#full-head ul{
+  margin:0;
+  padding:0;
+  list-style:none; 
+}
+
+#full-head li{
+  display:inline;
+  margin-right: 100px;
+  text-decoration: none;
+}
+
+#full-head li a:link, li a:visited, li a:hover{
+  margin:0;
+  padding:0 3px 10px 3px;
+  color:#FFFFFF;
+  background-color:#232323;
+  border-bottom:1px solid #232323;
+  text-decoration: none;
+}
+
+#full-head li a:hover, li.active a{
+  color:#FDC609;
+  background-color:#232323;
+  border-bottom-color:#FDC609;
+  text-decoration: none;
+}
+
+/* ------------------- Side Navbar ------------------- */
+
+#leftmenu {
+  display:block;
+  position:fixed;
+  margin-top:6.2%;
+  margin-left: 2%;
+  padding:5px;
+  background-color:#232323;
+  margin-bottom:30px;
+  float:left;
+  width:15%;
+  height: 75%;}
+
+#leftmenu_main h3{
+  margin:0 0 20px 0;
+  padding:0 0 14px 0;
+  font-size:50px;
+  text-align:center;
+  font-weight:normal;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#FDC609;
+  background-color:#232323;
+  line-height:normal;
+  border-bottom:1px dashed #666666;
+}
+
+#leftmenu_main a{
+  display:block;
+  margin:0;
+  padding:5px 10px 5px 20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 2.6;
+  color:#666666;
+  background-color:#232323;
+  text-decoration:none;
+  border-bottom:1px dotted #666666;
+}
+
+#leftmenu_main ul{
+  margin:0;
+  padding:0;
+  list-style:none;}
+
+#leftmenu_main li{
+  margin:0 0 10px 0;
+  padding:0;
+}
+
+#leftmenu_main a:hover{color:#FDC609; background-color:#161616;}
+
+/* ------------------- Content ------------------- */
+
+#content{
+  position: fixed; 
+  margin-top: 6.2%; 
+  margin-left: 20%; 
+  line-height:1.4em;
+  background-color:#000000; 
+  width: 75%; 
+  height: 76%;
+}
+
+#content-main{
+  display:block; 
+  position:fixed; 
+  float:left; 
+}
+
+#content_main h2 {
+  padding-bottom:2%;
+  border-bottom:1px dotted #999999;
+  color:#FDC609;
+  text-align:center;
+  font-size: 200%;
+  line-height: 1;
+  font-family:Georgia, "Times New Roman", Times, serif;
+} 
+#content_main h3{
+  padding-bottom:2%;
+  border-bottom:1px dotted #999999;
+  color:#FDC609;
+  text-align:left;
+  font-size: 150%;
+  text-indent: 2%;
+  line-height: 1;
+  font-family:Georgia, "Times New Roman", Times, serif;
+} 
+ 
+#content_main p2{
+  padding-bottom:2%;
+  color:#ffffff;
+  text-align:left;
+  font-size: 120%;
+  line-height: 2;
+  font-family:Georgia, "Times New Roman", Times, serif;
+} 
+
+/* ------------------- Footer ------------------- */
+
+#footer{
+  bottom:0;
+  display:block;
+  position:fixed;
+  width:100%;
+  margin:0 auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding:20px;
+  color:#525252;
+  background-color:#232323;
+}
+
+#footer a{
+  text-decoration: none;
+}
+
+#footer a:link, a:visited, a:hover{
+  margin:0; padding:0 3px 10px 3px;
+  color:#666666;
+  border-bottom:1px solid #232323;
+}
+
+#footer a:hover {
+  color:#FDC609;
+  border-bottom-color:#FDC609;
+}
